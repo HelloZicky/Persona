@@ -1,0 +1,4 @@
+ood判别错误的用了当前点击序列hist_embed和target_embed做的判别。
+应该用trigger_embed和hist_embed预测分布变化
+或者用trigger_embed和target_embed做错误分类预测
+在MetaNetwork_RS_local_amazon_ood_seq10_from38_30u30i_gru_new_auc2中改进
